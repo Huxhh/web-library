@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<Context reloadable = "true" crossContext="true">
+<Resource
+	name="jdbc/databasetest"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/jspex"
+	username="root"
+	password="563255387"
+	maxActive="10"
+	maxIdle="5"
+	maxWait="-1"
+	auth="Container"
+	description="jspex DataBase Connection pool"
+	/>
+</Context>

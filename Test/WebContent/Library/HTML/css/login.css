@@ -1,0 +1,88 @@
+body{
+	background:url("../images/login_Bg.jpg");
+}
+
+#main{
+	margin:0 auto;
+	width:500px;
+	height:600px;
+	background-color:#121317;
+}	
+	.head{
+		padding:50px 0 0 40px;
+	}
+	.head h1{
+		width:320px;
+		height:50px;
+		color:#979696;
+		font-size:40px;
+		float:left;
+	}
+	.head img{
+		width:60px;
+		height:60px;
+		margin-left:18px;
+		margin-top:20px;
+	}
+	.head span{
+		display:block;
+		width:100px;
+		height:100px;
+		float:left;
+		background:#df4a32;
+	}
+	.loginForm{
+		margin:150px 0 0 40px;
+	}
+	.loginForm input{
+		width:400px;
+		height:60px;
+		padding-left:17px;
+		font-size:30px;
+		margin-bottom:20px;
+		border:0;
+		box-shadow:0px 1px 1px #df4a32;
+	}
+	.login1{
+		background:#18191e url(../images/man.png) right no-repeat;
+	}
+	.login2{
+		background:#18191e url(../images/password.png) right no-repeat;
+	}
+	.botton{
+		width:205px;
+		height:80px;
+		background:#d29d41;
+		border:0;
+		font-size:20px;
+		color:#6c411b;
+		font-weight:bold;
+		cursor:pointer;
+		margin-top:20px;
+		box-shadow:0px 1px 1px #d29d41;
+	}
+
+	.radio input{
+		width:10px;
+		height:10px;
+		box-shadow:none;
+	}
+	.forget ul{
+		list-style:none;
+	}
+	.forget li{
+		float:left;
+		margin-right:30px;
+	}
+	.forget li a{
+		font-size:20px;
+		color:#979696;
+		text-decoration:none;
+	}
+	.forget li .color{
+		color:#ad8238;
+	}
+	.forget li a:hover{
+		color:#df4a32;
+		text-decoration:underline; 
+	}

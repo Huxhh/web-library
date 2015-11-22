@@ -1,0 +1,49 @@
+body{
+	background:url("../images/login_Bg.jpg");
+}
+#studentManage{
+	margin:0 auto;
+	width:500px;
+	height:600px;
+	background-color:#121317;
+}
+	
+	#studentManage h1{
+		color:#d29d41;
+		font-size:50px;
+		text-align:center;
+		padding-top:30px;
+	}
+	#studentManage input{
+			width:400px;
+			height:60px;
+			padding-left:17px;
+			font-size:30px;
+			margin-bottom:20px;
+			margin-top:30px;
+			margin-left:40px;
+			border:0;
+			box-shadow:0px 1px 1px #df4a32;
+			background:#18191e;
+		}
+		.delete,.add{
+			display:block;
+			width:418px;
+			height:60px;
+			margin-left:40px;
+			background:#d29d41;
+			border:0;
+			font-size:20px;
+			color:#6c411b;
+			font-weight:bold;
+			cursor:pointer;
+			box-shadow:0px 1px 1px #d29d41;
+			text-align:center;
+			line-height:60px;
+		}
+		.delete:hover,.add:hover{
+			box-shadow:0px 10px 10px #df4a32;
+		}
+		#studentManage span{
+			font-size:20px;
+		}
